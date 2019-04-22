@@ -1,0 +1,17 @@
+/*Smallest it can get is 405px and biggest it can get is 455px*/
+@media (min-width: 405px) and (max-width: 786px) {
+ #nav-container {
+     display: flex;
+     flex-direction: column;
+     border: solid 2px green;
+ }
+ .master-links {
+    display: flex;
+    justify-content: center;
+}
+
+.master-links li {
+    list-style: none;
+    padding-left: 1em;
+}
+}
